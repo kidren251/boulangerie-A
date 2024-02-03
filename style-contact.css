@@ -8,15 +8,16 @@
     
     font-family: 'Playfair Display', serif;
     color: rgb(122, 77, 4);
+    background-color: rgb(33,41,48);
   }
   nav {
-    background: rgba(245, 245, 245, 0.381);
+    background: rgba(215, 202, 202, 0.381);
     min-height: 100px;
     
   }
 
   header {
-    height: 200px;
+    height: 140px;
     width: 100vw;
 }
 .navbar {
@@ -27,7 +28,7 @@
     width: 100%;
     box-sizing: border-box;
     align-items: center;
-    background: goldenrod;
+    background: rgba(245, 245, 245, 0.769);
 }
 .navbar a {
     font-family: 'Playfair Display', serif;
@@ -59,68 +60,79 @@ span {
     color: goldenrod;
     width: 100px;
     cursor: pointer;
+}
+.card-info h2,
+h3{
+   margin: 0;
+}
+.card img{
+   width: 10em;
+   border: solid 2px rgb(171, 118, 4);
+   position: relative;
+   top: 30px;
+}
+.card-container{
+   margin: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.card{
+   box-shadow: 0 4px 8px rgb(213, 205, 205);
+   width: 280px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: rgba(222, 198, 146, 0.58);
+   border-radius: 5px;
+}
+.card:hover{
+   box-shadow: 0 4px 8px rgb(255, 252, 252);
 
 }
+.card-top{
+   background-color: silver;
+   text-align: center;
+   height: 25%;
+   border-radius: 5px 5px 0 0;
+}
 
-  .contact {
-    margin: 45px 0px 0px 0px;
-    padding: 25px;
-    align-items: center;
-  }
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-items: center;
-    border: solid 0.5px ;
-    margin: 0px 350px 100px;
-  }
-  .zone1 {
-    margin: 20px;
-  }
-  .zone2 {
-    margin: 20px;
-  }
-  .zone2 ul {
-    margin: 20px 0px;
-  }
-  .zone2 li {
-    margin: 20px;
-  }
 
-  .contact-medias {
-    padding: 60px 0 15px;
-    display: flex;
-    align-items: center;
-    width: 95%;
-    margin: 0 auto;
-  }
-  .medias-text {
-    text-align: left;
-    width: 30%;
-  }
-  .medias-text h3 {
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    margin-bottom: 12px;
-  }
-  .medias-text p {
-    font-size: 0.8rem;
-  }
-  .medias-logos {
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-  }
-  .medias-logos img {
-    width: 60px;
-  }
+
+
 /* FOOTER */
-
+.contact-medias {
+  padding: 30px 0 15px;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.medias-text {
+  text-align: left;
+  width: 30%;
+}
+.medias-text h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+.medias-text p {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.medias-logos {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.medias-logos img {
+  width: 60px;
+}
 footer {
-    background: goldenrod;
-    min-height: 100px;
+   background-color: rgba(251, 251, 251, 0.632);
+    min-height: 80px;
 }
 
 

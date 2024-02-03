@@ -241,8 +241,11 @@ footer {
 }
 
 @media screen and (max-width: 865px) {
+  .list-topo-part {
+    display: flex;
+    flex-direction: column;
+  }
   .part {
-    display: block;
     margin-bottom: 30px;
     margin: 25px 5px;
   }
