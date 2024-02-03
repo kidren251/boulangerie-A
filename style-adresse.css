@@ -55,16 +55,9 @@
     top: 50px;
     display: none;
 }
-span {
-    color: goldenrod;
-    width: 100px;
-    cursor: pointer;
-
-}
 /** middle **/ 
 .middle {
     margin: 25px;
-    height: 250px;
 }
 .middle img {
 

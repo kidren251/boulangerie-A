@@ -8,6 +8,7 @@
     font-family: 'Playfair Display', serif;
     color: rgb(122, 77, 4);
     text-align: center;
+    background: rgb(239, 235, 235);
   }
   nav {
     background: rgba(245, 245, 245, 0.381);
@@ -16,8 +17,9 @@
   }
 
   header {
-    height: 200px;
+    height: 100px;
     width: 100vw;
+    margin: 0px 0px 15px 0px;
 }
 .navbar {
     position: absolute;
@@ -55,22 +57,23 @@
     top: 50px;
     display: none;
 }
-span {
-    color: goldenrod;
-    width: 100px;
-    cursor: pointer;
-
-}
 /** middle **/ 
 .middle {
     margin: 25px;
-    height: 250px;
+}
+.middle-container {
+  margin: 20px 0px;
+}
+.middle h1 {
+  margin: 15px 0px;
+  text-transform: uppercase;
 }
 .middle img {
-
+    border: black solid 3px;
+    margin: 10px;
 }
 .middle p {
-
+  margin: 20px 250px;
 } 
 /**footer**/
 
