@@ -240,4 +240,13 @@ footer {
 
 }
 
-@media screen and (max-width: 865px) {}
+@media screen and (max-width: 865px) {
+  .part {
+    display: block;
+    margin-bottom: 30px;
+    margin: 25px 5px;
+  }
+  .part button {
+    margin: 20px 0px;
+  }
+}
