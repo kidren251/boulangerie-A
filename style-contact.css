@@ -8,7 +8,8 @@
     
     font-family: 'Playfair Display', serif;
     color: rgb(122, 77, 4);
-    background-color: rgb(33,41,48);
+    background: rgb(227, 227, 228);
+
   }
   nav {
     background: rgba(215, 202, 202, 0.381);
@@ -28,7 +29,7 @@
     width: 100%;
     box-sizing: border-box;
     align-items: center;
-    background: rgba(245, 245, 245, 0.769);
+    background: rgb(33,41,48);
 }
 .navbar a {
     font-family: 'Playfair Display', serif;
@@ -126,13 +127,15 @@ h3{
   display: flex;
   justify-content: space-around;
   width: 70%;
+  background-color: rgba(218, 165, 32, 0.498);
+  padding: 15px 10px 10px 10px;
 }
 .medias-logos img {
   width: 60px;
 }
 footer {
-   background-color: rgba(251, 251, 251, 0.632);
-    min-height: 80px;
+  min-height: 80px;
+  background: rgb(33,41,48);
 }
 
 
