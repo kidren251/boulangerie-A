@@ -3,16 +3,24 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    cursor: none;
   }
   body {
     text-align: center;
   }
+  .cercle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: gold;
+    border: solid 2px gold;
+    border-radius: 300px;
+  }
   header {
     height: 500px;
-    width: 100vw;
     background: url(./asset/petrir.jpg);
     background-size: 100vw;
-    border-bottom: solid goldenrod 4px;
+    border: solid goldenrod 4px;
 }
 .navbar {
     position: fixed;

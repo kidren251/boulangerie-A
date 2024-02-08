@@ -16,3 +16,12 @@ window.addEventListener("scroll", () => {
   }
   position = window.scrollY;
 });
+
+/**souris */
+
+const cercle = document.querySelector(".cercle");
+
+window.addEventListener("mousemove", (e) => {
+  cercle.style.top = e.y + "px";
+  cercle.style.left = e.x + "px";
+});
