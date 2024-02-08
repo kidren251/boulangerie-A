@@ -12,20 +12,23 @@
     width: 100vw;
     background: url(./asset/petrir.jpg);
     background-size: 100vw;
+    border-bottom: solid goldenrod 4px;
 }
 .navbar {
-    position: absolute;
+    position: fixed;
     padding: 25px;
     display: flex;
+    top: 0;
     justify-content: space-between;
     width: 100%;
+    transition: 0.25s;
     box-sizing: border-box;
     align-items: center;
-    background: rgba(245, 245, 245, 0.381);
+    background: rgba(33, 41, 48, 0.847);
 }
 .navbar a {
     font-family: 'Playfair Display', serif;
-    color: rgb(122, 77, 4);
+    color: rgb(160, 108, 23);
     
 }
 .navbar .logo {
@@ -64,7 +67,7 @@ span {
 .topo-part {
     background: rgb(225, 219, 219);
     padding: 5px 0;
-    color: rgb(148, 113, 23);
+    color: rgb(160, 108, 23);
     min-height: 450px;
 }
 .topo-part-container {
@@ -106,7 +109,7 @@ span {
   }
 
   .contact {
-    padding: 25px 0 20px;
+    padding: 25px 0 0px;
     max-width: 1100px;
     margin: 0 auto;
   }
@@ -126,12 +129,12 @@ span {
   }
   .contact-list .list {
     text-align: left;
-    width: 24%;
+    width: 44%;
   }
   #contact-img img {
     margin: 0 auto;
     display: block;
-    max-width: 100px;
+    max-width: 60%;
   }
   .contact-list h5 {
     text-transform: uppercase;
@@ -150,7 +153,7 @@ span {
     margin-bottom: 8px;
   }
   .list .network {
-    margin: 20px 0 8px;
+    margin: 5px 0 8px;
   }
   .footer-logos i {
     font-size: 0.8rem;
